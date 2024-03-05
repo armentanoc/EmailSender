@@ -35,7 +35,7 @@ public class EmailSender {
             }
         });
         
-        session.setDebug(true);
+        //session.setDebug(true);
         
         try {
             Message message = new MimeMessage(session);
